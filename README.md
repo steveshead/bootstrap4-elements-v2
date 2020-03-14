@@ -34,7 +34,7 @@ Utils.js is included in bootstrap.js, so to use scrollspy add the following to y
 
 Note as you hover over each element you have the ability to view the code with the "<>" button that appears.  You can copy the code from that window also - a handy feature.
 
-View the <a href="https://steveshead.github.io/bootstrap4-elements-v2/">demo</a> site <a href="https://steveshead.github.io/bootstrap4-element-v2/">here</a>.
+View the <a href="https://steveshead.github.io/bootstrap4-elements-v2/">demo</a> site <a href="https://steveshead.github.io/bootstrap4-elements-v2/">here</a>.
 
 ---------------------------------------------------------
 
@@ -92,4 +92,4 @@ $link-hover-decoration: none;
 @import '../../bootstrap/scss/bootstrap';
 ```
 
-View the <a href="https://steveshead.github.io/bootstrap4-elements-v2/">demo</a> site <a href="https://steveshead.github.io/bootstrap4-element-v2/">here</a>.
+View the <a href="https://steveshead.github.io/bootstrap4-elements-v2/">demo</a> site <a href="https://steveshead.github.io/bootstrap4-elements-v2/">here</a>.
