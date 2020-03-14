@@ -26,7 +26,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --purple: #b19cd9;
+  --custom: #b19cd9;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -1591,25 +1591,25 @@ pre code {
   background-color: #b9bbbe;
 }
 
-.table-purple,
-.table-purple > th,
-.table-purple > td {
+.table-custom,
+.table-custom > th,
+.table-custom > td {
   background-color: #e9e3f4;
 }
 
-.table-purple th,
-.table-purple td,
-.table-purple thead th,
-.table-purple tbody + tbody {
+.table-custom th,
+.table-custom td,
+.table-custom thead th,
+.table-custom tbody + tbody {
   border-color: #d6cceb;
 }
 
-.table-hover .table-purple:hover {
+.table-hover .table-custom:hover {
   background-color: #dbd1ed;
 }
 
-.table-hover .table-purple:hover > td,
-.table-hover .table-purple:hover > th {
+.table-hover .table-custom:hover > td,
+.table-hover .table-custom:hover > th {
   background-color: #dbd1ed;
 }
 
@@ -2517,37 +2517,37 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 
-.btn-purple {
+.btn-custom {
   color: #212529;
   background-color: #b19cd9;
   border-color: #b19cd9;
 }
 
-.btn-purple:hover {
+.btn-custom:hover {
   color: #fff;
   background-color: #9b80ce;
   border-color: #9477cb;
 }
 
-.btn-purple:focus, .btn-purple.focus {
+.btn-custom:focus, .btn-custom.focus {
   box-shadow: 0 0 0 0.2rem rgba(155, 138, 191, 0.5);
 }
 
-.btn-purple.disabled, .btn-purple:disabled {
+.btn-custom.disabled, .btn-custom:disabled {
   color: #212529;
   background-color: #b19cd9;
   border-color: #b19cd9;
 }
 
-.btn-purple:not(:disabled):not(.disabled):active, .btn-purple:not(:disabled):not(.disabled).active,
-.show > .btn-purple.dropdown-toggle {
+.btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
+.show > .btn-custom.dropdown-toggle {
   color: #fff;
   background-color: #9477cb;
   border-color: #8d6ec7;
 }
 
-.btn-purple:not(:disabled):not(.disabled):active:focus, .btn-purple:not(:disabled):not(.disabled).active:focus,
-.show > .btn-purple.dropdown-toggle:focus {
+.btn-custom:not(:disabled):not(.disabled):active:focus, .btn-custom:not(:disabled):not(.disabled).active:focus,
+.show > .btn-custom.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(155, 138, 191, 0.5);
 }
 
@@ -2807,35 +2807,35 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-.btn-outline-purple {
+.btn-outline-custom {
   color: #b19cd9;
   border-color: #b19cd9;
 }
 
-.btn-outline-purple:hover {
+.btn-outline-custom:hover {
   color: #212529;
   background-color: #b19cd9;
   border-color: #b19cd9;
 }
 
-.btn-outline-purple:focus, .btn-outline-purple.focus {
+.btn-outline-custom:focus, .btn-outline-custom.focus {
   box-shadow: 0 0 0 0.2rem rgba(177, 156, 217, 0.5);
 }
 
-.btn-outline-purple.disabled, .btn-outline-purple:disabled {
+.btn-outline-custom.disabled, .btn-outline-custom:disabled {
   color: #b19cd9;
   background-color: transparent;
 }
 
-.btn-outline-purple:not(:disabled):not(.disabled):active, .btn-outline-purple:not(:disabled):not(.disabled).active,
-.show > .btn-outline-purple.dropdown-toggle {
+.btn-outline-custom:not(:disabled):not(.disabled):active, .btn-outline-custom:not(:disabled):not(.disabled).active,
+.show > .btn-outline-custom.dropdown-toggle {
   color: #212529;
   background-color: #b19cd9;
   border-color: #b19cd9;
 }
 
-.btn-outline-purple:not(:disabled):not(.disabled):active:focus, .btn-outline-purple:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-purple.dropdown-toggle:focus {
+.btn-outline-custom:not(:disabled):not(.disabled):active:focus, .btn-outline-custom:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-custom.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(177, 156, 217, 0.5);
 }
 
@@ -4880,17 +4880,17 @@ a.badge-dark:focus, a.badge-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-.badge-purple {
+.badge-custom {
   color: #212529;
   background-color: #b19cd9;
 }
 
-a.badge-purple:hover, a.badge-purple:focus {
+a.badge-custom:hover, a.badge-custom:focus {
   color: #212529;
   background-color: #9477cb;
 }
 
-a.badge-purple:focus, a.badge-purple.focus {
+a.badge-custom:focus, a.badge-custom.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(177, 156, 217, 0.5);
 }
@@ -5054,17 +5054,17 @@ a.badge-purple:focus, a.badge-purple.focus {
   color: #040505;
 }
 
-.alert-purple {
+.alert-custom {
   color: #5c5171;
   background-color: #efebf7;
   border-color: #e9e3f4;
 }
 
-.alert-purple hr {
+.alert-custom hr {
   border-top-color: #dbd1ed;
 }
 
-.alert-purple .alert-link {
+.alert-custom .alert-link {
   color: #443c53;
 }
 
@@ -5438,17 +5438,17 @@ a.badge-purple:focus, a.badge-purple.focus {
   border-color: #1b1e21;
 }
 
-.list-group-item-purple {
+.list-group-item-custom {
   color: #5c5171;
   background-color: #e9e3f4;
 }
 
-.list-group-item-purple.list-group-item-action:hover, .list-group-item-purple.list-group-item-action:focus {
+.list-group-item-custom.list-group-item-action:hover, .list-group-item-custom.list-group-item-action:focus {
   color: #5c5171;
   background-color: #dbd1ed;
 }
 
-.list-group-item-purple.list-group-item-action.active {
+.list-group-item-custom.list-group-item-action.active {
   color: #fff;
   background-color: #5c5171;
   border-color: #5c5171;
@@ -6346,13 +6346,13 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
-.bg-purple {
+.bg-custom {
   background-color: #b19cd9 !important;
 }
 
-a.bg-purple:hover, a.bg-purple:focus,
-button.bg-purple:hover,
-button.bg-purple:focus {
+a.bg-custom:hover, a.bg-custom:focus,
+button.bg-custom:hover,
+button.bg-custom:focus {
   background-color: #9477cb !important;
 }
 
@@ -6436,7 +6436,7 @@ button.bg-purple:focus {
   border-color: #343a40 !important;
 }
 
-.border-purple {
+.border-custom {
   border-color: #b19cd9 !important;
 }
 
@@ -9501,11 +9501,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: #121416 !important;
 }
 
-.text-purple {
+.text-custom {
   color: #b19cd9 !important;
 }
 
-a.text-purple:hover, a.text-purple:focus {
+a.text-custom:hover, a.text-custom:focus {
   color: #8565c4 !important;
 }
 
